@@ -36,6 +36,6 @@ public class Suma {
 	@Override
 	public String toString() {
 		Double resultado = numero1 + numero2; 
-		return "Suma [numero1=" + numero1 + ", numero2=" + numero2 + "]" + "= " + resultado;
+		return resultado.toString();
 	}
 }

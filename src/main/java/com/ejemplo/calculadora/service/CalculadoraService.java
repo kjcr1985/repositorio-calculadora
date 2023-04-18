@@ -8,8 +8,7 @@ import com.ejemplo.calculadora.dao.Suma;
 @Service
 public class CalculadoraService {
 
-	
-	
+		
 	public String calculadora(Double valor1, Double valor2, String operacion) {
 		String result = "";
 			

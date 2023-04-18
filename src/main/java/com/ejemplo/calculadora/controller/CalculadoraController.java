@@ -16,7 +16,7 @@ public class CalculadoraController {
 	private CalculadoraService calculadoraService;
 	
 	@GetMapping
-	public Response calculadoraSuma(@PathVariable Double numero1, @PathVariable Double numero2, @PathVariable String operacion) {
+	public Response calculadora(@PathVariable Double numero1, @PathVariable Double numero2, @PathVariable String operacion) {
 		try {
 			Response resultado = new Response();
 		
